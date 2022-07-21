@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #A2A79E;
+            margin: 0px;
+        }
+        header {
+            background-color: #A27E8E;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: #A77464;
+            padding: 3px;
+            box-shadow: 2px 2px 4px #2e1e0f6c;
+        }
+        article > aside {
+            text-decoration: none;
+            color: #88292F;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: #88292F;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: #2E1E0F;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article {
+            background-color: #A27E8E;
+            padding: 5px;
+        }
+        footer {
+            background-color: #2E1E0F;
+            color: #A77464;
+            text-align: center;  
+            margin: 0px;
+            padding: 1px;
+              }
+      footer > p {
+        margin: 0px;
+      }
+      div#bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+         <article>
+            <h2>titulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, architecto. Harum quisquam atque eligendi ea nisi, doloribus placeat quibusdam optio rerum quaerat perferendis, deserunt ratione veniam magni exercitationem eos! Nihil.</p>
+            <aside>
+                <p>artigo escrito por blabla</p>
+            </aside>
+         </article>
+
+    </main>
+    <footer>
+        <p>desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
